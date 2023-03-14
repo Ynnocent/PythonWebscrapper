@@ -1,0 +1,49 @@
+Findings:Sign In
+Towards Data Science
+Mar 22, 2021
+Member-only
+
+In
+2012, Amazon released the first cloud database DynamoDB and changed the database landscape forever. Since then, cloud databases have experienced a meteoric rise in terms of adoption and innovation. As the whole Software development industry moves towards cloud-native development, cloud databases will be increasingly more important in the coming days. Gartner has predicted that by the end of 2022, 75% of all databases will move to the Cloud:
+www.gartner.com
+Why are cloud databases getting popular? In terms of database technology, the public cloud databases are not different from other SQL or NoSQL databases. However, the key selling point of the public cloud databases lies in database management and scaling.
+In traditional SQL databases and many NoSQL databases, the application owners manage the databases, including replication, sharding, backup, restoration, scaling. But in cloud databases, the cloud provider manages the database.
+Most cloud-native databases offer the following features along with the basic database management system:
+Although the mainstream SQL and NoSQL databases are now trying to retrofit these features, they are not built from the ground-up for these needs.
+In this article, I will rank the five most in-demand cloud-native database according to the following criteria:
+During the Christmas sale of December 2004, Amazon learned the hard way that the centralized, strong, consistent RDBMS could not handle Web-Scale application load. With a strict consistency Model, relational structure, and 2-phase commit, the traditional SQL databases could not provide the high availability and horizontal scalability Amazon was looking for. Amazon Engineering team developed a new NoSQL database DynamoDB and released their findings in their Dynamo paper in 2007. Amazon Dynamo paper played a crucial role in the later development of the NoSQL databases like Cassandra, Riak.
+Although DynamoDB was used as the primary database of Amazon’s shopping cart application, it was only made public in 2012. Since then, DynmoDB is the most popular public cloud database and one of the most popular AWS services.
+Amazon DynamoDB is one of the most used hyper-scale cloud databases. It is also one of the most AWS services.
+In recent years, it is getting fierce competition from open-source databases (e.g., Cassandra, MongoDB) and other public cloud databases (Azure Cosmos DB).
+As Amazon is the leading public cloud provider, DynamoDB is still the most popular NoSQL database in the public cloud.
+According to the popular database ranking site DB-Engines, it is the second most popular public cloud database, just behind Azure SQL database:
+The Stack Overflow Developer Survey 2020 has placed DynamoDB as the 11th most popular database for 2020. This is a feat considering that DynamoDB was the only public cloud database in that list:
+Since its launch in 2012, DynamoDB is one of the trendiest Databases in the industry. DB-Engines shows a continuous growth of trending for DynamoDB in its whole life-span:
+Google trending also shows a linear increase in popularity for DynamoDB over the last decade:
+There are very few companies out there who have to deal with a massive dataset like Google. It is no wonder that Google is leading the BigData landscape in the 21st century with many novel ideas and innovations. At the beginning of this century, Google found the “One size fit for all” SQL databases are not good enough for Analytics workload. They developed a new Database, “Dremel,” for data-warehousing, i.e., handling a large volume of analytics Data. Google published a paper, “Dremel: Interactive Analysis of Web-Scale Datasets,” in 2010 to make their findings public.
+Later, Google made their internal Dremel Database public as BigQuery Database in 2011. Since then, it is the leading and the most innovative Database for data warehousing and analytics load. Google Cloud (GCP) has a strong presence in the Data Storage landscape, and BigQuery is playing a pivotal role there.
+BigQuery has revolutionized Data Warehousing. It is the third most popular Cloud Database according to the DB-Engines ranking:
+BigQuery achieved a steep rise in popularity over the years, as confirmed by the DB-Engines trending:
+It is one of the trendiest Data Warehousing solution and generating lots of hype in recent years, as shown below:
+Microsoft is another big player in the database landscape. With Microsoft SQL Server, Microsoft dominated the commercial database market of the mid-range Windows Systems. When Microsoft adopted its Cloud-first approach during the 2010s, it offered a managed database service on top of the Microsoft SQL Server. In the following years, Microsoft managed SQL Server went through many changes.
+Currently, Azure SQL Database is not only the managed database-as-a-service of the Microsoft SQL Server, but it also offers many other value-added extra features. For many enterprises, especially those who are already using Microsoft SQL Server, it is the preferred database in the cloud as they can easily lift-and-shift their on-prem Microsoft SQL Server to the cloud.
+Azure SQL database is not as disruptive or innovative as some other databases in this list. But there is a massive market of the managed SQL database in the cloud. In that domain, the Azure SQL database excels.
+It is the most popular public cloud database as per DB-Engines ranking:
+Azure SQL Database is not as trending as some other databases in this list. But it still is generating positive trends during the last decade with a high spike previous year:
+Google trends also show a stable trend for the Azure SQL database.
+Microsoft is the traditional giant Tech company with a global presence. When Microsoft started the Cloud-first policy in 2010, they wanted to develop their own Planet-Scale NoSQL database to focus on maximum flexibility and developer friendliness. Finally, after seven years of intensive research and development, they have released their multi-model, multi-consistency, globally distributed Database Azure Cosmos DB in 2017. In many ways, Azure Cosmos DB introduced several Novel features in Database Technology. Although it is not the first Multi-model database, it is by far the most advanced multi-model database. It also offers additional developer-friendly features.
+Today, Azure Cosmos DB is one of the fastest-growing Databases in the market. In modern days, the search for a “Master Database,” i.e., “one database to rule them all,” is a hot topic. Among all the potential “Master Database” candidates, Azure Cosmos DB is the most suitable candidate at this moment.
+Azure Cosmos DB is the youngest database on this list and only in the market for the last four years. Nevertheless, it has experienced a very high adoption in the industry and ranks 4th in terms of cloud database popularity:
+As the leading and pioneer cloud provider, Amazon wanted to move fast. Amazon has, famously or infamously, taken many open-source data stores and built their AWS service offering on top of it. When Google shook the Data Warehouse scenario in 2011 with Big Query, Amazon took popular and innovative SQL database PostgreSQL and built their own data warehouse solution on top of it. In 2013, they released Amazon Redshift as an enterprise-grade cloud data warehouse solution.
+Amazon Redshift is one of the leading data warehouse solutions thanks to the dominance of AWS in the public cloud landscape. On the flip side, Amazon Redshift is not moving as fast as its competitors (e.g., BigQuery, Snowflake) due to its strong dependency on PostgreSQL.
+In terms of popularity, Amazon Redshift is lagging behind other public cloud databases in this list, as shown below:
+Amazon Redshift is not the trendiest Data warehouse solution in the market and lagging behind BigQuery and Snowflake. In recent years, its traction has flattened, as shown by the DB-Engines trending:
+In this list, the Amazon SQL database is the only public cloud SQL database.
+Amazon DynamoDB is the most used NoSQL database among the cloud databases.
+Google BigQuery has revolutionized the Data Warehouse landscape and the most innovative data warehouse solution. Amazon Redshift is another popular data warehouse solution built on a PostgreSQL server.
+Although relatively new, Azure Cosmos DB is a very promising database and a leading candidate for the master database.
+Many other public cloud databases could not make in this shortlist. Among them, Google Spanner and Amazon Aurora are very promising in the landscape of Distributed SQL databases.
+If you are already in a public cloud or planning to move to the public cloud, you should also consider a public cloud database. Public cloud databases are here to stay and will offer managed databases in different scenarios in the future.
+towardsdatascience.com
+towardsdatascience.com
+towardsdatascience.com
